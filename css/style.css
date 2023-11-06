@@ -1,0 +1,46 @@
+/* Database links */
+body p {
+  color: darkslategray;
+}
+
+h1,
+h2 {
+  color: darkgreen;
+}
+
+.card-links {
+  text-decoration: none;
+  text-align: center;
+  font-weight: 900;
+  font-size: 1.5em;
+  max-width: 250px;
+
+  list-style: none;
+}
+
+.databse li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 10px;
+}
+
+/* Back button on documents */
+
+.back {
+  border-radius: 0.5rem;
+  background-color: var(--color-main);
+  font-size: x-large;
+  padding: 0.5vw;
+  text-decoration: none;
+  color: #eeece8;
+}
+
+.back:hover {
+  border-radius: 0.5rem;
+  background-color: var(--color-sub);
+  font-size: x-large;
+  padding: 0.5vw;
+  text-decoration: none;
+  color: #eeece8;
+}
